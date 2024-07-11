@@ -14,8 +14,18 @@
     <title>Cricket-game</title>
   </head>
   <body>
+
     <h1 class="game_name">Cricket game</h1>
     <div class="game container">
+      <div class="winner_box d-none">
+        <div class="winner_team_box">
+          <h4>Winner</h4>
+          <h5 class="winner_name"></h5>
+          <div class="new_game">
+            <button class="restart_game" >Start new game</button>
+          </div>
+        </div>
+      </div>
       <div class="game-board">
         <div class="teams">
           <div class="board-row">
@@ -24,12 +34,7 @@
               <h5>Score:<input class="team-1_score" value="0"></input></h5>
             </div>
           </div>
-          <div class="board-row">
-            <div class="first_team">
-              <h4>Winner</h4>
-              <h5 class="winner_name"></h5>
-            </div>
-          </div>
+          
           <div class="board-row">
             <div class="first_team">
               <h4>Team-2</h4>

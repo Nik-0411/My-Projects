@@ -23,6 +23,7 @@ body {
   align-items: center;
   margin: 90px auto;
   border-radius: 20px;
+  position: relative;
 }
 
 .game-board {
@@ -107,4 +108,46 @@ body {
   margin-left: 00px;
   padding: 2px 6px;
   mix-blend-mode: color-burn;
+}
+
+.winner_box {
+  position: absolute;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #011936ea;
+  z-index: 100;
+}
+
+.winner_team_box {
+  width: 60%;
+  height: 70%;
+  background-color: #da4167;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.new_game {
+  width: 100%;
+  margin-top: 10px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.restart_game {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #011936;
+  color: wheat;
 }
