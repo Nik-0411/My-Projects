@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  /* height: 100vh; */
+  background-color: #3a4454;
+}
+
+.game_name {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 48px;
+  color: #da4167;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 90px auto;
+  border-radius: 20px;
+}
+
+.game-board {
+  width: 90%;
+  height: 400px;
+  border-radius: 10px;
+  background-color: #05b091;
+}
+
+.row {
+  width: 70%;
+  height: 170px;
+  border-radius: 20px;
+  margin: 10px auto;
+  background-color: #011936;
+}
+.score_board {
+  width: 75%;
+  height: 70px;
+  border-radius: 10px;
+  margin: 15px auto;
+  background-color: #887880;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pointes {
+  width: 12%;
+  height: 60px;
+  background-color: #8fcb9b;
+  border-radius: 50%;
+  font-size: 28px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  border: none;
+}
+
+.play_btn_box {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: -30px;
+  padding: 25px 0 10px;
+}
+
+.play_btn,
+.reset_btn {
+  padding: 0px 15px;
+  margin-right: 15px;
+  border: none;
+  background-color: #00b2ca;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.teams {
+  display: flex;
+  justify-content: space-between;
+}
+
+.board-row {
+  max-width: 400px;
+  float: left;
+  padding: 10px;
+  text-align: center;
+}
+
+.first_team {
+  padding: 20px;
+  background-color: #5d737e;
+  border-radius: 10px;
+}
+
+.team-1_score,
+.team-2_score {
+  border: none;
+  width: 50px;
+  margin-left: 00px;
+  padding: 2px 6px;
+  mix-blend-mode: color-burn;
+}
