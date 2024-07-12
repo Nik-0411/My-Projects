@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Editor</title>
+    <link rel="stylesheet" href="./Style.css" />
+  </head>
+  <body>
+    <div class="alert">
+      <p class="msg">Please use class and id for edit in style tag</p>
+    </div>
+    <div class="editor-container">
+      <div class="editor-header">
+        <div id="language-select">
+          <option value="html">HTML</option>
+        </div>
+        <select id="theme-select">
+          <option value="dark">Dark</option>
+          <option value="light">Light</option>
+        </select>
+      </div>
+      <textarea id="code-editor" spellcheck="false" class="dark"> </textarea>
+    </div>
+    <div class="editor-container">
+      <div class="result-header">
+        <h1 class="name">Code test editor</h1>
+      </div>
+      <div id="result-editor" spellcheck="false" class="dark"></div>
+    </div>
+
+    <script src="./js.js"></script>
+  </body>
+</html>
