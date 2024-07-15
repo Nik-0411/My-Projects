@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  background-color: #ca9ee8;
+}
+
+.hide {
+  display: none !important;
+}
+.game_name {
+  background-color: aqua;
+  padding: 1rem;
+}
+
+.winner_box {
+  height: 88vh;
+  line-height: 10vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.winner_msg {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.new_game {
+  margin-top: 6vmin;
+}
+
+.container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4vmin;
+  margin-top: 8vmin;
+}
+
+.game_board {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 1.5vmin;
+}
+
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  background-color: chartreuse;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  font-size: 10vmin;
+  color: rgb(18, 192, 212);
+}
+
+.box:hover {
+  cursor: pointer;
+}
+
+.resetbtn,
+.new_game {
+  background-color: black;
+  cursor: pointer;
+  color: white;
+  border: none;
+  padding: 1.2rem;
+  border-radius: 1rem;
+  font-size: 2.5vmin;
+}
