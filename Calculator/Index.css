@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(56, 31, 158, 0.608);
+}
+
+.contener {
+  width: 200px;
+  height: auto;
+  /* border: 2px solid black; */
+  border-radius: 15px;
+  padding: 5px 5px 5px 10px;
+  margin: 200px auto;
+  display: grid;
+  background-color: rgb(55, 65, 83);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7), 0 12px 15px rgba(0, 0, 0, 0.22);
+}
+
+input {
+  margin: 5px 0 5px 0;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  width: 92%;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.number {
+  width: 35px;
+  height: 30px;
+  margin: 3px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.fitures {
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.fture {
+  width: 35px;
+  height: 25px;
+}
+
+.number_div {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.numo {
+  width: 80px;
+}
