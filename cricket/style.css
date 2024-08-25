@@ -31,6 +31,7 @@ body {
   height: 400px;
   border-radius: 10px;
   background-color: #05b091;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7), 0 12px 15px rgba(0, 0, 0, 0.22);
 }
 
 .row {
@@ -39,6 +40,7 @@ body {
   border-radius: 20px;
   margin: 10px auto;
   background-color: #011936;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7), 0 12px 15px rgba(0, 0, 0, 0.22);
 }
 .score_board {
   width: 75%;
